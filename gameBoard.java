@@ -65,9 +65,9 @@ public class gameBoard {
 
     // Method to print board
     public void printBoard() {
-        System.out.println("\n");
-        System.out.println("    BOARD               ");
-        System.out.println("\n\n");
+        System.out.println("\n---------------");
+        System.out.println("     BOARD       ");
+        System.out.println("---------------\n\n");
         String[][] board = new String[][]{
             {"□", "□", "□", "□", "□", "□"},
             {"□"," "," "," "," ","□" },
@@ -83,14 +83,10 @@ public class gameBoard {
             System.out.println();
         }
 
-        System.out.println("\n\n");
+        System.out.println("\n");
 
 
         sortProperties();
-        int i = 1;
-        for (Property p : properties) {
-            System.out.println((i++) + ": " + p.getName() + " - Owner: " + p.getOwner());
-        }
 
         
     }

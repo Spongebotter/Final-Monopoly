@@ -34,7 +34,7 @@ public class Game {
         String name = input.nextLine();
         players[i] = new Player(name, board);
         }
-        System.out.println("Let's start the game!");
+        System.out.println("\nLet's start the game!");
         }
 
     // Method to handle a turn
@@ -42,8 +42,6 @@ public class Game {
 
         Player player = players[turn];
         lines();
-        spacing();
-        spacing();
         System.out.println(player.getName() + "'s turn!");
         System.out.println("You have $" + player.getBalance());
         lines();
@@ -95,7 +93,8 @@ public class Game {
                     if (player.getBalance() >= property.getPrice()) {
                         player.buyProperty(property);
                         congrats();
-                        System.out.println("You bought " + property.getName() + " for $" + property.getPrice());
+                        spacing();
+                        System.out.println("You bought " + property.getName() + " for $" + property.getPrice() + "!");
                         status += (player.getName() + " bought " + property.getName() + " for $" + property.getPrice())
                                 + "\n";
                         System.out.println(property.getDetails());
@@ -227,7 +226,7 @@ public class Game {
             System.out.println();
         }
 
-        System.out.println("Enter location on the board you would like info on (1 through 20): ");
+        System.out.print("\nEnter location on the board you would like info on (1 through 20): ");
         int squareLocation = input.nextInt();
 
         for (Property property : board.getProperties()) {

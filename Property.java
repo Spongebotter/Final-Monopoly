@@ -21,7 +21,7 @@ public class Property {
 
     //Accessor to general information "toString" method.
     public String toString() {
-        String info = "Name: " + name + "\nOwner: " + owner + "\nRent: " + rent + "\nLocation: " + location + "\n";
+        String info = "\nName: " + name + "\nOwner: " + owner + "\nRent: " + rent + "\nLocation: " + location + "\nDetails: " + details;
         return info;
     }
 
