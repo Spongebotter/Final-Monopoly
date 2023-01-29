@@ -1,0 +1,23 @@
+Go,0,0,1,
+Massachusetts General Hospital,120,60,2,Massachusetts General Hospital is a prestigious Boston-based medical center known for research and patient care.
+Johns Hopkins Hospital,200,100,3,Johns Hopkins Hospital is a renowned Baltimore-based hospital known for innovations in medical treatment and training.
+Singapore General Hospital,260,130,4,Singapore General Hospital is a major healthcare provider in Singapore, offering comprehensive medical services.
+Mayo Clinic - Rochester,290,150,5,Mayo Clinic - Rochester is a world-renowned medical center based in Rochester, MN, specializing in patient care.
+Tokyo Medical and Dental University Hospital,320,180,6,Tokyo Medical and Dental University Hospital is a leading medical center in Tokyo known for research and education.
+Charité - Universitätsmedizin Berlin,340,200,7,Charité - Universitätsmedizin Berlin is a Berlin-based university hospital, Europe's largest, known for clinical research.
+Bumrungrad International Hospital,380,240,8,Bumrungrad International Hospital is a prestigious Bangkok-based hospital, renowned for medical tourism services.
+The Prince Charles Hospital,430,280,9,The Prince Charles Hospital is a major hospital in Brisbane, Australia, known for providing advanced medical services.
+St. Luke's International Hospital,450,300,10,St. Luke's International Hospital is a Tokyo-based hospital providing a wide range of medical services.
+Toronto General Hospital,480,350,11,Toronto General Hospital is a leading hospital in Toronto, Canada, known for research and patient care.
+University College London Hospitals,500,380,12,University College London Hospitals is a network of teaching hospitals in London, known for medical education and research.
+Leiden University Medical Center,520,390,13,Leiden University Medical Center is a leading academic medical center in the Netherlands, known for medical research.
+Sheba Medical Center,550,430,14,Sheba Medical Center is a major medical center in Tel Aviv, Israel, offering advanced medical services.
+St Thomas' Hospital,570,470,15,St Thomas' Hospital is a major London-based hospital, part of the King's Health Partners academic health science center.
+University of Michigan Hospitals and Health Centers,600,500,16,University of Michigan Hospitals and Health Centers is a network of healthcare facilities in Michigan, known for medical research.
+Karolinska University Hospital,620,430,17,Karolinska University Hospital is a major Stockholm-based hospital, known for medical research and education.
+University of Hong Kong - Queen Mary Hospital,650,500,18,University of Hong Kong - Queen Mary Hospital is a major Hong Kong-based hospital, known for medical research and education.
+University of Zurich Hospital,700,570,19,University of Zurich Hospital is a major academic medical center in Zurich, known for medical research and education.
+University of Sao Paulo Hospital,800,800,20,University of Sao Paulo Hospital is a leading medical center in Sao Paulo, Brazil, known for medical research and patient care.
+
+
+
