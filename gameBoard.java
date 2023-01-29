@@ -1,17 +1,16 @@
-
-import java.io.File;  // Import the File class
-import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.io.File; // Import the File class
+import java.io.FileNotFoundException; // Import this class to handle errors
 import java.util.LinkedList;
 import java.util.Scanner; // Import the Scanner class to read text files
 
 // Board class
 public class gameBoard {
 
-    private LinkedList<Property> properties;  //linked list used
+    private LinkedList < Property > properties; //linked list used
 
     // Constructor
     public gameBoard() {
-        properties = new LinkedList<>();
+        properties = new LinkedList < > ();
         loadProperties();
     }
 
@@ -34,7 +33,7 @@ public class gameBoard {
     }
 
     // Getter
-    public LinkedList<Property> getProperties() {
+    public LinkedList < Property > getProperties() {
         return properties;
     }
 
@@ -68,13 +67,50 @@ public class gameBoard {
         System.out.println("\n---------------");
         System.out.println("     BOARD       ");
         System.out.println("---------------\n\n");
-        String[][] board = new String[][]{
-            {"□", "□", "□", "□", "□", "□"},
-            {"□"," "," "," "," ","□" },
-            {"□"," "," "," "," ","□"},
-            {"□", " ", " ", " "," ", "□" },
-            {"□", " ", " ", " "," ", "□" },
-            {"□", "□", "□", "□", "□","□" }
+        String[][] board = new String[][] {
+            {
+                "□",
+                "□",
+                "□",
+                "□",
+                "□",
+                "□"
+            }, {
+                "□",
+                " ",
+                " ",
+                " ",
+                " ",
+                "□"
+            }, {
+                "□",
+                " ",
+                " ",
+                " ",
+                " ",
+                "□"
+            }, {
+                "□",
+                " ",
+                " ",
+                " ",
+                " ",
+                "□"
+            }, {
+                "□",
+                " ",
+                " ",
+                " ",
+                " ",
+                "□"
+            }, {
+                "□",
+                "□",
+                "□",
+                "□",
+                "□",
+                "□"
+            }
         };
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
@@ -88,12 +124,12 @@ public class gameBoard {
 
         sortProperties();
 
-        
+
     }
 
     // Method to search for a property
     public Property searchProperty(String name) {
-        for (Property property : properties) {
+        for (Property property: properties) {
             if (name.equalsIgnoreCase(property.getName())) {
                 return property;
             }
